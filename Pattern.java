@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Pattern {
-    private static void interestingalphabets(int input) {
+    public static void interestingalphabets(int input) {
         char start_char=(char)('A'+input-1);
         for(int row=1;row<=input;row++){
             char temp_char=start_char;
